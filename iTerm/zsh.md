@@ -17,6 +17,7 @@ Install prezto on top of zsh to get additional functionality
 
 Next create the `~/.zshrc` file by running
 
+    zsh
     setopt EXTENDED_GLOB
     for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
       ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
